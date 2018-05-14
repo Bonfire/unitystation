@@ -152,6 +152,7 @@ MonoBehaviour:
   currentPos: {x: 0, y: 0, z: 0}
   isPushable: 0
   pulledBy: {fileID: 0}
+  custNetActiveState: 0
   pushing: 0
   pushTarget: {x: 0, y: 0, z: 0}
   closetHandlerCache: {fileID: 0}
@@ -200,7 +201,12 @@ MonoBehaviour:
   itemName: Pepper Shaker
   size: 0
   spriteType: 0
-  type: 15
+  type: 0
+  throwForce: 0
+  throwSpeed: 2
+  throwRange: 7
+  hitDamage: 2
+  hitSound: GenericHit
 --- !u!114 &114967777731387712
 MonoBehaviour:
   m_ObjectHideFlags: 1
